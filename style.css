@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Source Code Pro", monospace;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title span {
+    color: #ff4444;
+}
+
+.subtitle {
+    margin: 10px 0 0 10px;
+    font-size: 20px;
+}
+
+.subtitle span {
+    color: #ff4444;
+}
+
+.assignment-container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.fixed-element {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ff4444;
+    color: white;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.parent-container {
+    min-height: 200px;
+    background-color: #2196f3;
+    position: relative;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    color: white;
+}
+
+.absolute-label {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #ff9800;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.child-element {
+    background-color: #4caf50;
+    padding: 10px;
+    min-height: 100px;
+    margin-top: 10px;
+    color: white;
+}
